@@ -32,11 +32,6 @@ env/
 *.swp
 *.swo
 
-# Project specific
-saved_graphs/
-*.json
-*.graphml
-
 # Jupyter Notebook
 .ipynb_checkpoints
 

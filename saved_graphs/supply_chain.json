@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "Factory_A",
+      "type": "factory",
+      "capacity": 1460,
+      "location": "40.67183782541459,-73.99235026664626",
+      "processing_time": 1.043071688896016
+    },
+    {
+      "id": "Factory_B",
+      "type": "factory",
+      "capacity": 1109,
+      "location": "40.66426339851337,-73.84886723657229",
+      "processing_time": 0.8660129898304345
+    },
+    {
+      "id": "Factory_C",
+      "type": "factory",
+      "capacity": 1358,
+      "location": "40.71713886587201,-73.88590092953999",
+      "processing_time": 1.0382890465704424
+    },
+    {
+      "id": "Factory_D",
+      "type": "factory",
+      "capacity": 1096,
+      "location": "40.72617709301185,-73.93814374568997",
+      "processing_time": 1.020112347050967
+    },
+    {
+      "id": "Factory_E",
+      "type": "factory",
+      "capacity": 1211,
+      "location": "40.76617245393537,-73.8689125202739",
+      "processing_time": 0.8553661476903043
+    },
+    {
+      "id": "Warehouse_X",
+      "type": "warehouse",
+      "storage": 477,
+      "location": "40.671779462439616,-73.7111329697652",
+      "processing_time": 0.5927827361688811
+    },
+    {
+      "id": "Warehouse_Y",
+      "type": "warehouse",
+      "storage": 599,
+      "location": "40.755073129101085,-73.81673708956478",
+      "processing_time": 0.5268002539165411
+    },
+    {
+      "id": "Warehouse_Z",
+      "type": "warehouse",
+      "storage": 641,
+      "location": "40.742763605963404,-73.8971135040593",
+      "processing_time": 0.5923051930143982
+    },
+    {
+      "id": "Warehouse_A",
+      "type": "warehouse",
+      "storage": 486,
+      "location": "40.747228527070476,-73.85045075258822",
+      "processing_time": 0.5487243523151979
+    },
+    {
+      "id": "Warehouse_B",
+      "type": "warehouse",
+      "storage": 492,
+      "location": "40.60738742977611,-73.70631282182785",
+      "processing_time": 0.5973553550049815
+    },
+    {
+      "id": "Warehouse_C",
+      "type": "warehouse",
+      "storage": 586,
+      "location": "40.70940409203714,-73.99590017968227",
+      "processing_time": 0.4581082409555255
+    },
+    {
+      "id": "Warehouse_D",
+      "type": "warehouse",
+      "storage": 758,
+      "location": "40.87182999324236,-74.00022880925253",
+      "processing_time": 0.5479462207002206
+    },
+    {
+      "id": "Warehouse_E",
+      "type": "warehouse",
+      "storage": 501,
+      "location": "40.80069476014064,-73.91946654906211",
+      "processing_time": 0.5133563722515823
+    },
+    {
+      "id": "Retailer_1",
+      "type": "retailer",
+      "demand": 279,
+      "location": "40.44530627699614,-73.65308072544995",
+      "processing_time": 0.19730903172543454
+    },
+    {
+      "id": "Retailer_2",
+      "type": "retailer",
+      "demand": 268,
+      "location": "40.69082471570842,-73.68825637467229",
+      "processing_time": 0.1794350030341896
+    },
+    {
+      "id": "Retailer_3",
+      "type": "retailer",
+      "demand": 281,
+      "location": "40.69634763790689,-73.66819818914887",
+      "processing_time": 0.26426148268453886
+    },
+    {
+      "id": "Retailer_4",
+      "type": "retailer",
+      "demand": 242,
+      "location": "40.55799397465728,-73.85223854352598",
+      "processing_time": 0.1723358109309105
+    }
+  ],
+  "edges": [
+    {
+      "source": "Factory_A",
+      "target": "Warehouse_X",
+      "cost": 5.094296567829428,
+      "lead_time": 1,
+      "capacity": 394
+    },
+    {
+      "source": "Factory_A",
+      "target": "Warehouse_Y",
+      "cost": 4.4419128289488174,
+      "lead_time": 3,
+      "capacity": 358
+    },
+    {
+      "source": "Factory_A",
+      "target": "Warehouse_A",
+      "cost": 4.835809433291216,
+      "lead_time": 2,
+      "capacity": 386
+    },
+    {
+      "source": "Factory_A",
+      "target": "Warehouse_Z",
+      "cost": 5.466101665294043,
+      "lead_time": 1,
+      "capacity": 386
+    },
+    {
+      "source": "Factory_A",
+      "target": "Warehouse_C",
+      "cost": 5.669330028912725,
+      "lead_time": 1,
+      "capacity": 313
+    },
+    {
+      "source": "Factory_B",
+      "target": "Warehouse_B",
+      "cost": 5.946647292950637,
+      "lead_time": 3,
+      "capacity": 361
+    },
+    {
+      "source": "Factory_B",
+      "target": "Warehouse_E",
+      "cost": 4.907692949739481,
+      "lead_time": 1,
+      "capacity": 349
+    },
+    {
+      "source": "Factory_B",
+      "target": "Warehouse_A",
+      "cost": 4.966302769710666,
+      "lead_time": 2,
+      "capacity": 366
+    },
+    {
+      "source": "Factory_B",
+      "target": "Warehouse_Z",
+      "cost": 5.436803658201825,
+      "lead_time": 1,
+      "capacity": 359
+    },
+    {
+      "source": "Factory_C",
+      "target": "Warehouse_B",
+      "cost": 4.194458834533371,
+      "lead_time": 3,
+      "capacity": 305
+    },
+    {
+      "source": "Factory_C",
+      "target": "Warehouse_D",
+      "cost": 5.003928220826612,
+      "lead_time": 2,
+      "capacity": 371
+    },
+    {
+      "source": "Factory_C",
+      "target": "Warehouse_E",
+      "cost": 4.474768712869202,
+      "lead_time": 2,
+      "capacity": 394
+    },
+    {
+      "source": "Factory_C",
+      "target": "Warehouse_A",
+      "cost": 4.621773374839741,
+      "lead_time": 2,
+      "capacity": 310
+    },
+    {
+      "source": "Factory_C",
+      "target": "Warehouse_Y",
+      "cost": 4.472242441085209,
+      "lead_time": 1,
+      "capacity": 329
+    },
+    {
+      "source": "Factory_D",
+      "target": "Warehouse_X",
+      "cost": 5.2984368311606485,
+      "lead_time": 3,
+      "capacity": 319
+    },
+    {
+      "source": "Factory_D",
+      "target": "Warehouse_C",
+      "cost": 4.578331247280236,
+      "lead_time": 2,
+      "capacity": 307
+    },
+    {
+      "source": "Factory_E",
+      "target": "Warehouse_Y",
+      "cost": 5.237731325047381,
+      "lead_time": 1,
+      "capacity": 337
+    },
+    {
+      "source": "Factory_E",
+      "target": "Warehouse_B",
+      "cost": 5.0327975900666155,
+      "lead_time": 2,
+      "capacity": 374
+    },
+    {
+      "source": "Factory_E",
+      "target": "Warehouse_Z",
+      "cost": 5.175015234414543,
+      "lead_time": 3,
+      "capacity": 295
+    },
+    {
+      "source": "Factory_E",
+      "target": "Warehouse_D",
+      "cost": 4.375693487938779,
+      "lead_time": 2,
+      "capacity": 359
+    },
+    {
+      "source": "Factory_E",
+      "target": "Warehouse_E",
+      "cost": 5.6694709966516195,
+      "lead_time": 1,
+      "capacity": 254
+    },
+    {
+      "source": "Warehouse_X",
+      "target": "Retailer_2",
+      "cost": 3.4564498417784213,
+      "lead_time": 1.2997448824558093,
+      "capacity": 181
+    },
+    {
+      "source": "Warehouse_Y",
+      "target": "Retailer_1",
+      "cost": 2.7241061013589363,
+      "lead_time": 1.5246634832722599,
+      "capacity": 168
+    },
+    {
+      "source": "Warehouse_Y",
+      "target": "Retailer_2",
+      "cost": 2.4100564081609415,
+      "lead_time": 1.709131032471747,
+      "capacity": 159
+    },
+    {
+      "source": "Warehouse_Y",
+      "target": "Retailer_4",
+      "cost": 3.114481179244199,
+      "lead_time": 0.9325808092159076,
+      "capacity": 197
+    },
+    {
+      "source": "Warehouse_Z",
+      "target": "Retailer_4",
+      "cost": 3.4872719947866493,
+      "lead_time": 1.9390563968520227,
+      "capacity": 182
+    },
+    {
+      "source": "Warehouse_A",
+      "target": "Retailer_3",
+      "cost": 3.0528416344440306,
+      "lead_time": 1.5436016558295687,
+      "capacity": 202
+    },
+    {
+      "source": "Warehouse_A",
+      "target": "Retailer_4",
+      "cost": 2.0226103828077004,
+      "lead_time": 0.6230682663258164,
+      "capacity": 160
+    },
+    {
+      "source": "Warehouse_A",
+      "target": "Retailer_2",
+      "cost": 3.2538304519050247,
+      "lead_time": 1.2251068652989272,
+      "capacity": 187
+    },
+    {
+      "source": "Warehouse_B",
+      "target": "Retailer_1",
+      "cost": 3.8385499715747793,
+      "lead_time": 1.8065039521574737,
+      "capacity": 162
+    },
+    {
+      "source": "Warehouse_B",
+      "target": "Retailer_3",
+      "cost": 2.175578276867617,
+      "lead_time": 1.369613866467616,
+      "capacity": 215
+    },
+    {
+      "source": "Warehouse_C",
+      "target": "Retailer_1",
+      "cost": 2.9018019498643857,
+      "lead_time": 1.037636694310116,
+      "capacity": 185
+    },
+    {
+      "source": "Warehouse_C",
+      "target": "Retailer_2",
+      "cost": 3.702112827401728,
+      "lead_time": 1.4606480233760621,
+      "capacity": 232
+    },
+    {
+      "source": "Warehouse_D",
+      "target": "Retailer_2",
+      "cost": 2.974127658990387,
+      "lead_time": 0.9233380274157863,
+      "capacity": 157
+    },
+    {
+      "source": "Warehouse_D",
+      "target": "Retailer_3",
+      "cost": 2.004973042129466,
+      "lead_time": 1.071995835712735,
+      "capacity": 244
+    },
+    {
+      "source": "Warehouse_D",
+      "target": "Retailer_1",
+      "cost": 2.261969109407887,
+      "lead_time": 0.5958240912777832,
+      "capacity": 249
+    },
+    {
+      "source": "Warehouse_E",
+      "target": "Retailer_4",
+      "cost": 3.5928685549041406,
+      "lead_time": 1.8428049327633598,
+      "capacity": 188
+    },
+    {
+      "source": "Warehouse_E",
+      "target": "Retailer_3",
+      "cost": 3.1961492728329732,
+      "lead_time": 1.7919181968243283,
+      "capacity": 240
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d9" for="edge" attr.name="lead_time" attr.type="double"/>
+<key id="d8" for="edge" attr.name="capacity" attr.type="long"/>
+<key id="d7" for="edge" attr.name="lead_time" attr.type="long"/>
+<key id="d6" for="edge" attr.name="cost" attr.type="double"/>
+<key id="d5" for="node" attr.name="demand" attr.type="long"/>
+<key id="d4" for="node" attr.name="storage" attr.type="long"/>
+<key id="d3" for="node" attr.name="processing_time" attr.type="double"/>
+<key id="d2" for="node" attr.name="location" attr.type="string"/>
+<key id="d1" for="node" attr.name="capacity" attr.type="long"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="Factory_A">
+  <data key="d0">factory</data>
+  <data key="d1">1460</data>
+  <data key="d2">40.67183782541459,-73.99235026664626</data>
+  <data key="d3">1.043071688896016</data>
+</node>
+<node id="Factory_B">
+  <data key="d0">factory</data>
+  <data key="d1">1109</data>
+  <data key="d2">40.66426339851337,-73.84886723657229</data>
+  <data key="d3">0.8660129898304345</data>
+</node>
+<node id="Factory_C">
+  <data key="d0">factory</data>
+  <data key="d1">1358</data>
+  <data key="d2">40.71713886587201,-73.88590092953999</data>
+  <data key="d3">1.0382890465704424</data>
+</node>
+<node id="Factory_D">
+  <data key="d0">factory</data>
+  <data key="d1">1096</data>
+  <data key="d2">40.72617709301185,-73.93814374568997</data>
+  <data key="d3">1.020112347050967</data>
+</node>
+<node id="Factory_E">
+  <data key="d0">factory</data>
+  <data key="d1">1211</data>
+  <data key="d2">40.76617245393537,-73.8689125202739</data>
+  <data key="d3">0.8553661476903043</data>
+</node>
+<node id="Warehouse_X">
+  <data key="d0">warehouse</data>
+  <data key="d4">477</data>
+  <data key="d2">40.671779462439616,-73.7111329697652</data>
+  <data key="d3">0.5927827361688811</data>
+</node>
+<node id="Warehouse_Y">
+  <data key="d0">warehouse</data>
+  <data key="d4">599</data>
+  <data key="d2">40.755073129101085,-73.81673708956478</data>
+  <data key="d3">0.5268002539165411</data>
+</node>
+<node id="Warehouse_Z">
+  <data key="d0">warehouse</data>
+  <data key="d4">641</data>
+  <data key="d2">40.742763605963404,-73.8971135040593</data>
+  <data key="d3">0.5923051930143982</data>
+</node>
+<node id="Warehouse_A">
+  <data key="d0">warehouse</data>
+  <data key="d4">486</data>
+  <data key="d2">40.747228527070476,-73.85045075258822</data>
+  <data key="d3">0.5487243523151979</data>
+</node>
+<node id="Warehouse_B">
+  <data key="d0">warehouse</data>
+  <data key="d4">492</data>
+  <data key="d2">40.60738742977611,-73.70631282182785</data>
+  <data key="d3">0.5973553550049815</data>
+</node>
+<node id="Warehouse_C">
+  <data key="d0">warehouse</data>
+  <data key="d4">586</data>
+  <data key="d2">40.70940409203714,-73.99590017968227</data>
+  <data key="d3">0.4581082409555255</data>
+</node>
+<node id="Warehouse_D">
+  <data key="d0">warehouse</data>
+  <data key="d4">758</data>
+  <data key="d2">40.87182999324236,-74.00022880925253</data>
+  <data key="d3">0.5479462207002206</data>
+</node>
+<node id="Warehouse_E">
+  <data key="d0">warehouse</data>
+  <data key="d4">501</data>
+  <data key="d2">40.80069476014064,-73.91946654906211</data>
+  <data key="d3">0.5133563722515823</data>
+</node>
+<node id="Retailer_1">
+  <data key="d0">retailer</data>
+  <data key="d5">279</data>
+  <data key="d2">40.44530627699614,-73.65308072544995</data>
+  <data key="d3">0.19730903172543454</data>
+</node>
+<node id="Retailer_2">
+  <data key="d0">retailer</data>
+  <data key="d5">268</data>
+  <data key="d2">40.69082471570842,-73.68825637467229</data>
+  <data key="d3">0.1794350030341896</data>
+</node>
+<node id="Retailer_3">
+  <data key="d0">retailer</data>
+  <data key="d5">281</data>
+  <data key="d2">40.69634763790689,-73.66819818914887</data>
+  <data key="d3">0.26426148268453886</data>
+</node>
+<node id="Retailer_4">
+  <data key="d0">retailer</data>
+  <data key="d5">242</data>
+  <data key="d2">40.55799397465728,-73.85223854352598</data>
+  <data key="d3">0.1723358109309105</data>
+</node>
+<edge source="Factory_A" target="Warehouse_X">
+  <data key="d6">5.094296567829428</data>
+  <data key="d7">1</data>
+  <data key="d8">394</data>
+</edge>
+<edge source="Factory_A" target="Warehouse_Y">
+  <data key="d6">4.4419128289488174</data>
+  <data key="d7">3</data>
+  <data key="d8">358</data>
+</edge>
+<edge source="Factory_A" target="Warehouse_A">
+  <data key="d6">4.835809433291216</data>
+  <data key="d7">2</data>
+  <data key="d8">386</data>
+</edge>
+<edge source="Factory_A" target="Warehouse_Z">
+  <data key="d6">5.466101665294043</data>
+  <data key="d7">1</data>
+  <data key="d8">386</data>
+</edge>
+<edge source="Factory_A" target="Warehouse_C">
+  <data key="d6">5.669330028912725</data>
+  <data key="d7">1</data>
+  <data key="d8">313</data>
+</edge>
+<edge source="Factory_B" target="Warehouse_B">
+  <data key="d6">5.946647292950637</data>
+  <data key="d7">3</data>
+  <data key="d8">361</data>
+</edge>
+<edge source="Factory_B" target="Warehouse_E">
+  <data key="d6">4.907692949739481</data>
+  <data key="d7">1</data>
+  <data key="d8">349</data>
+</edge>
+<edge source="Factory_B" target="Warehouse_A">
+  <data key="d6">4.966302769710666</data>
+  <data key="d7">2</data>
+  <data key="d8">366</data>
+</edge>
+<edge source="Factory_B" target="Warehouse_Z">
+  <data key="d6">5.436803658201825</data>
+  <data key="d7">1</data>
+  <data key="d8">359</data>
+</edge>
+<edge source="Factory_C" target="Warehouse_B">
+  <data key="d6">4.194458834533371</data>
+  <data key="d7">3</data>
+  <data key="d8">305</data>
+</edge>
+<edge source="Factory_C" target="Warehouse_D">
+  <data key="d6">5.003928220826612</data>
+  <data key="d7">2</data>
+  <data key="d8">371</data>
+</edge>
+<edge source="Factory_C" target="Warehouse_E">
+  <data key="d6">4.474768712869202</data>
+  <data key="d7">2</data>
+  <data key="d8">394</data>
+</edge>
+<edge source="Factory_C" target="Warehouse_A">
+  <data key="d6">4.621773374839741</data>
+  <data key="d7">2</data>
+  <data key="d8">310</data>
+</edge>
+<edge source="Factory_C" target="Warehouse_Y">
+  <data key="d6">4.472242441085209</data>
+  <data key="d7">1</data>
+  <data key="d8">329</data>
+</edge>
+<edge source="Factory_D" target="Warehouse_X">
+  <data key="d6">5.2984368311606485</data>
+  <data key="d7">3</data>
+  <data key="d8">319</data>
+</edge>
+<edge source="Factory_D" target="Warehouse_C">
+  <data key="d6">4.578331247280236</data>
+  <data key="d7">2</data>
+  <data key="d8">307</data>
+</edge>
+<edge source="Factory_E" target="Warehouse_Y">
+  <data key="d6">5.237731325047381</data>
+  <data key="d7">1</data>
+  <data key="d8">337</data>
+</edge>
+<edge source="Factory_E" target="Warehouse_B">
+  <data key="d6">5.0327975900666155</data>
+  <data key="d7">2</data>
+  <data key="d8">374</data>
+</edge>
+<edge source="Factory_E" target="Warehouse_Z">
+  <data key="d6">5.175015234414543</data>
+  <data key="d7">3</data>
+  <data key="d8">295</data>
+</edge>
+<edge source="Factory_E" target="Warehouse_D">
+  <data key="d6">4.375693487938779</data>
+  <data key="d7">2</data>
+  <data key="d8">359</data>
+</edge>
+<edge source="Factory_E" target="Warehouse_E">
+  <data key="d6">5.6694709966516195</data>
+  <data key="d7">1</data>
+  <data key="d8">254</data>
+</edge>
+<edge source="Warehouse_X" target="Retailer_2">
+  <data key="d6">3.4564498417784213</data>
+  <data key="d9">1.2997448824558093</data>
+  <data key="d8">181</data>
+</edge>
+<edge source="Warehouse_Y" target="Retailer_1">
+  <data key="d6">2.7241061013589363</data>
+  <data key="d9">1.5246634832722599</data>
+  <data key="d8">168</data>
+</edge>
+<edge source="Warehouse_Y" target="Retailer_2">
+  <data key="d6">2.4100564081609415</data>
+  <data key="d9">1.709131032471747</data>
+  <data key="d8">159</data>
+</edge>
+<edge source="Warehouse_Y" target="Retailer_4">
+  <data key="d6">3.114481179244199</data>
+  <data key="d9">0.9325808092159076</data>
+  <data key="d8">197</data>
+</edge>
+<edge source="Warehouse_Z" target="Retailer_4">
+  <data key="d6">3.4872719947866493</data>
+  <data key="d9">1.9390563968520227</data>
+  <data key="d8">182</data>
+</edge>
+<edge source="Warehouse_A" target="Retailer_3">
+  <data key="d6">3.0528416344440306</data>
+  <data key="d9">1.5436016558295687</data>
+  <data key="d8">202</data>
+</edge>
+<edge source="Warehouse_A" target="Retailer_4">
+  <data key="d6">2.0226103828077004</data>
+  <data key="d9">0.6230682663258164</data>
+  <data key="d8">160</data>
+</edge>
+<edge source="Warehouse_A" target="Retailer_2">
+  <data key="d6">3.2538304519050247</data>
+  <data key="d9">1.2251068652989272</data>
+  <data key="d8">187</data>
+</edge>
+<edge source="Warehouse_B" target="Retailer_1">
+  <data key="d6">3.8385499715747793</data>
+  <data key="d9">1.8065039521574737</data>
+  <data key="d8">162</data>
+</edge>
+<edge source="Warehouse_B" target="Retailer_3">
+  <data key="d6">2.175578276867617</data>
+  <data key="d9">1.369613866467616</data>
+  <data key="d8">215</data>
+</edge>
+<edge source="Warehouse_C" target="Retailer_1">
+  <data key="d6">2.9018019498643857</data>
+  <data key="d9">1.037636694310116</data>
+  <data key="d8">185</data>
+</edge>
+<edge source="Warehouse_C" target="Retailer_2">
+  <data key="d6">3.702112827401728</data>
+  <data key="d9">1.4606480233760621</data>
+  <data key="d8">232</data>
+</edge>
+<edge source="Warehouse_D" target="Retailer_2">
+  <data key="d6">2.974127658990387</data>
+  <data key="d9">0.9233380274157863</data>
+  <data key="d8">157</data>
+</edge>
+<edge source="Warehouse_D" target="Retailer_3">
+  <data key="d6">2.004973042129466</data>
+  <data key="d9">1.071995835712735</data>
+  <data key="d8">244</data>
+</edge>
+<edge source="Warehouse_D" target="Retailer_1">
+  <data key="d6">2.261969109407887</data>
+  <data key="d9">0.5958240912777832</data>
+  <data key="d8">249</data>
+</edge>
+<edge source="Warehouse_E" target="Retailer_4">
+  <data key="d6">3.5928685549041406</data>
+  <data key="d9">1.8428049327633598</data>
+  <data key="d8">188</data>
+</edge>
+<edge source="Warehouse_E" target="Retailer_3">
+  <data key="d6">3.1961492728329732</data>
+  <data key="d9">1.7919181968243283</data>
+  <data key="d8">240</data>
+</edge>
+</graph></graphml>
